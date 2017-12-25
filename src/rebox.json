@@ -1,0 +1,23 @@
+{
+    "navItem": [
+        { "tittle": "概述", "router": "/MainPage/codePage_0" },
+        { "tittle": "概述", "router": "/MainPage/codePage_1" },
+        { "tittle": "概述", "router": "/MainPage/codePage_2" },
+        { "tittle": "概述", "router": "/MainPage/codePage_3" },
+        { "tittle": "概述", "router": "/MainPage/codePage_4" },
+        { "tittle": "概述", "router": "/MainPage/codePage_5" },
+        { "tittle": "概述", "router": "/MainPage/codePage_6" },
+        { "tittle": "概述", "router": "/MainPage/codePage_7" },
+        { "tittle": "概述", "router": "/MainPage/codePage_8" },
+        { "tittle": "概述", "router": "/MainPage/codePage_9" },
+        { "tittle": "概述", "router": "/MainPage/codePage_10" },
+        { "tittle": "概述", "router": "/MainPage/codePage_11" },
+        { "tittle": "概述", "router": "/MainPage/codePage_12" },
+        { "tittle": "概述", "router": "/MainPage/codePage_13" },
+        { "tittle": "概述", "router": "/MainPage/codePage_14" },
+        { "tittle": "概述", "router": "/MainPage/codePage_15" },
+        { "tittle": "概述", "router": "/MainPage/codePage_16" },
+        { "tittle": "概述", "router": "/MainPage/codePage_17" },
+        { "tittle": "概述", "router": "/MainPage/codePage_18" }
+    ]
+}

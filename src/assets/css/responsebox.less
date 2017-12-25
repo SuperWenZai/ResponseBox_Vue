@@ -1,0 +1,140 @@
+@media screen and (max-width: 900px) {
+    body {
+        min-width: 320px;
+        max-width: 640px;
+        margin: 0 auto;
+    }
+    #app {
+        padding-left: 0 !important;
+    }
+    .nav {
+        display: block;
+        width: 180px !important;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0, 1);
+        -webkit-transform: translate(-200px, 0);
+        transform: translate(-200px, 0);
+    }
+    .screenNav {
+        min-width: 320px;
+    }
+    .hd {
+        display: none;
+    }
+    .navList {
+        padding-top: 40px !important;
+    }
+    .code {
+        padding: 20px !important;
+    }
+    .show {
+        display: none !important;
+    }
+    .main {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .screenNav {
+        display: none;
+    }
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+
+
+/* 主体样式定义 */
+
+#app {
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 240px;
+    height: 100%;
+    width: 100%;
+    .nav {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: lightblue;
+        height: 100%;
+        width: 240px;
+        z-index: 100;
+    }
+    .open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    .screenNav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #34495e;
+        height: 40px;
+        width: 100%;
+        .sleft {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top: 5px;
+            left: 5px;
+            display: inline-block;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        a{
+            color: #fff;
+        }
+    }
+}
+
+.code {
+    .txt_h1 {
+        box-sizing: border-box;
+        padding-bottom: 40px;
+        font-size: 25px;
+        color: #34495e;
+        span {
+            font-size: 25px;
+        }
+    }
+    .txt_h3 {
+        font-size: 20px;
+        color: #34495e;
+        box-sizing: border-box;
+        padding: 10px 0;
+    }
+    .txt_p1 {
+        line-height: 25px;
+    }
+    hr {
+        box-sizing: content-box;
+        height: 0;
+        overflow: visible;
+        border: 0;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    .text_a {
+        color: lightcoral;
+        box-sizing: border-box;
+        padding: 0 5px;
+    }
+    .text_span {
+        color: lightcoral;
+        background-color: #eee;
+        padding: 2px;
+    }
+}
+
+.demo_page {
+    width: 100%;
+    height: 580px;
+    background-color: #fff;
+}
