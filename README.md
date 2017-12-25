@@ -2,6 +2,8 @@
 
 使用vue搭建的一个类似elementUI的组件库网站，目前只是基本上把网站搭好；组件库也只是完成的一部分，还没和网站对接上；不过已经对接了elementUI的组件库，目前可以先试用；
 
+代码管理库（组件库 目前只完成一部分）： https://github.com/SupermanWenZai/zujianku
+
 # 技术栈
 
 vue + vueRouter + css3 + h5 + webpack + transparentbng + SyntaxHighlighter + Swiper3
